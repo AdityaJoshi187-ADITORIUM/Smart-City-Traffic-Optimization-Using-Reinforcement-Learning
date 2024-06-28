@@ -1,14 +1,14 @@
-# Traffic Signal Optimization with Reinforcement Learning
+# 🚦🚦🚦Traffic Signal Optimization with Reinforcement Learning🚥🚥🚥
 
 This project simulates a traffic signal control system using reinforcement learning to optimize the timing of traffic signals at multiple intersections. The goal is to minimize traffic congestion by adjusting the duration of green, yellow, and red signals based on the current traffic conditions.
 
-## Project Structure
+## Project Structure🛠
 
 - `TrafficSimulation` class: Defines the traffic simulation environment.
 - `RLAgent` class: Defines the reinforcement learning agent.
 - Training and evaluation functions: Train and evaluate the RL agent on the traffic simulation environment.
 
-## Simulation Environment Parameters
+## Simulation Environment Parameters🚦
 
 - **NUM_INTERSECTIONS**: Number of intersections in the simulation (default: 4).
 - **GREEN_DURATION**: Duration of the green signal in seconds (default: 30).
@@ -18,13 +18,13 @@ This project simulates a traffic signal control system using reinforcement learn
 
 ## Classes and Methods
 
-### `TrafficSimulation`
+### `TrafficSimulation`🚘
 
 - `__init__(self, num_intersections, green_duration, yellow_duration, red_duration)`: Initializes the simulation environment with the specified parameters.
 - `step(self, action)`: Updates traffic signal timings based on the action and simulates traffic flow. Returns the new state, reward, and whether the episode is done.
 - `reset(self)`: Resets the simulation environment to the initial state. Returns the initial state.
 
-### `RLAgent`
+### `RLAgent`🤖
 
 - `__init__(self, num_actions, num_intersections, learning_rate=0.1, discount_factor=0.9, exploration_rate=0.1)`: Initializes the RL agent with the specified parameters.
 - `select_action(self, state)`: Selects an action based on the current state using an epsilon-greedy policy.
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 - `numpy`
 
-## Installation
+## Installation⚓
 
 Clone this repository and navigate to the project directory:
 
@@ -67,7 +67,7 @@ git clone https://github.com/AdityaJoshi187-ADITORIUM/traffic-signal-optimizatio
 cd traffic-signal-optimization
 ```
 
-**Run the application**:
+**Run the application**:🏳
     ```bash
     python app.py
     ```
